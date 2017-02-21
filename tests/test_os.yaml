@@ -2209,6 +2209,20 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'TestApp/1.0 CFNetwork/808.1.4 Darwin/16.1.0'
+    family: 'iOS'
+    major: '10'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'TestApp/1.0 CFNetwork/808.2.16 Darwin/16.3.0'
+    family: 'iOS'
+    major: '10'
+    minor: '2'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'TestApp-tvOS/1.0-1'
     family: 'tvOS'
     major: '1'
@@ -2243,3 +2257,81 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0+(iPhone;+CPU+iPhone+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0+(iPad;+CPU+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
+    family: 'Tizen'
+    major: '2'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Deezer/4.8.2 (iOS; 7.1; Mobile; de)'
+    family: 'iOS'
+    major: '7'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iOS; U; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/19.0'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'UCWEB/2.0 (iOS; U; iPd OS 7_0_4; zh-CN; iPd5,1) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile'
+    family: 'iOS'
+    major: '7'
+    minor: '0'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU IPhone OS 8_1_3 Like Mac OS X) AppleWebKit/600.1.4 (KHTML, Like Gecko) CriOS/43.0.2357.61 Mobile/12B466 Safari/600.1.4'
+    family: 'iOS'
+    major: '8'
+    minor: '1'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU IPhone OS 9_2_1 Like Mac OS X) AppleWebKit/601.1.46 (KHTML, Like Gecko) Mobile/13D15 [FBAN/FBIOS;FBAV/52.0.0.46.157;FBBV/26424168;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2.1;FBSS/2; FBCR/Globe;FBID/phone;FBLC/en_US;FBOP/5]'
+    family: 'iOS'
+    major: '9'
+    minor: '2'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.22.74257'
+    family: 'Chromecast'
+    major: '1'
+    minor: '22'
+    patch: '74257'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) Outlook-iOS-Android/1.0 Mobile/13G35 Safari/601.1.46")'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/52.0.2743.116+Safari/537.36'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '11'
+    patch: '6'
+    patch_minor:
+
